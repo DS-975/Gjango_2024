@@ -1,0 +1,26 @@
+py -m pip install Django
+
+↑ установка Django ↑
+
+py -m django --version
+↑ Проверка что установился Django ↑
+
+
+
+
+winget install --id Git.Git -e --source winget
+
+git help
+
+python manage.py makemigrations
+python manage.py migrate
+
+makemigrations
+Команда просматривает все ваши доступные модели
+и создает миграции для тех таблиц,
+которые еще не существуют.
+
+migrate
+выполняет миграции и создает таблицы в вашей базе данных,
+а также, при необходимости, обеспечивает более богатый контроль схемы .
+
